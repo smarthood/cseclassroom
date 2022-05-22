@@ -1,0 +1,27 @@
+.material-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.material{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, orange, rgb(245, 204, 128));
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.material h4{
+    padding-left: 10px;
+
+}
+.material .icon{
+    font-size: 40px;
+}
+.wholematerialcontainer{
+    height: 100vh;
+}
